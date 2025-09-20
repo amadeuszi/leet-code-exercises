@@ -27,7 +27,7 @@
             "runtimeArgs": [
                 "ts-node"
             ],
-            "program": "${workspaceFolder}/zigzag-conversion/solution.ts",
+            "program": "${workspaceFolder}/integer-to-roman/solution.ts",
             "env": {
                 "TS_NODE_COMPILER_OPTIONS": "{\"module\":\"commonjs\"}"
             }
