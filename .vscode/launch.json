@@ -27,7 +27,7 @@
             "runtimeArgs": [
                 "ts-node"
             ],
-            "program": "${workspaceFolder}/integer-to-roman/solution.ts",
+            "program": "${workspaceFolder}/longest-common-prefix/solution.ts",
             "env": {
                 "TS_NODE_COMPILER_OPTIONS": "{\"module\":\"commonjs\"}"
             }
