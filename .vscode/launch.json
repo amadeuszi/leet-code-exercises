@@ -27,7 +27,7 @@
             "runtimeArgs": [
                 "ts-node"
             ],
-            "program": "${workspaceFolder}/index-of-the-first-occurence/solution.ts",
+            "program": "${workspaceFolder}/divide-and-conquer/quick-sort.ts",
             "env": {
                 "TS_NODE_COMPILER_OPTIONS": "{\"module\":\"commonjs\"}"
             }
