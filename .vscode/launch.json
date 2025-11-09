@@ -27,7 +27,7 @@
             "runtimeArgs": [
                 "ts-node"
             ],
-            "program": "${workspaceFolder}/divide-and-conquer/quick-sort.ts",
+            "program": "${workspaceFolder}/graphs/number-of-provinces.ts",
             "env": {
                 "TS_NODE_COMPILER_OPTIONS": "{\"module\":\"commonjs\"}"
             }
