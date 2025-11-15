@@ -27,7 +27,7 @@
             "runtimeArgs": [
                 "ts-node"
             ],
-            "program": "${workspaceFolder}/graphs/number-of-provinces.ts",
+            "program": "${workspaceFolder}/graphs/minimal-spanning-tree.ts",
             "env": {
                 "TS_NODE_COMPILER_OPTIONS": "{\"module\":\"commonjs\"}"
             }
