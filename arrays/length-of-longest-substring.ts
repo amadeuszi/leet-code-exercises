@@ -18,6 +18,4 @@ function lengthOfLongestSubstring(s: string): number {
     }
 
     return maxLength
-};
-
-console.log(lengthOfLongestSubstring("abcabcd"))
+}
