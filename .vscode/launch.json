@@ -27,7 +27,7 @@
             "runtimeArgs": [
                 "ts-node"
             ],
-            "program": "${workspaceFolder}/graphs/minimal-spanning-tree.ts",
+            "program": "${workspaceFolder}/advent-of-code/day1/task1/task1.ts",
             "env": {
                 "TS_NODE_COMPILER_OPTIONS": "{\"module\":\"commonjs\"}"
             }
