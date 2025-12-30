@@ -14,10 +14,10 @@ class Solution {
         int index = 0;
         int i = 0;
         while (i < s.length()) {
-            Replacement replacement = index < replacements.size() ? replacements.get(index) : new Replacement("", "", -1);
+            Replacement replacement = index < replacements.size() ? replacements.get(index) : new Replacement(-1, "", "");
             int sourceIndex = replacement.index;
             String target = replacement.target;
-            String source = replacement.source
+            String source = replacement.source;
 
             if (Integer.compare(i, sourceIndex) == 0 && s.startsWith(source, sourceIndex)) {
                 result.append(target);
