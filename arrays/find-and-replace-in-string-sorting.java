@@ -7,7 +7,7 @@ class Solution {
         for (int i = 0; i < indices.length; i++) {
             replacements.add(new Replacement(indices[i], sources[i], targets[i]));
         }
-        replacements.sort((a, b) -> Integer.compare(a.index, b.index));
+        replacements.sort(Comparator.comparingInt(r -> r.index));
 
         StringBuilder result = new StringBuilder();
 
@@ -19,7 +19,7 @@ class Solution {
             String target = replacement.target;
             String source = replacement.source;
 
-            if (Integer.compare(i, sourceIndex) == 0 && s.startsWith(source, sourceIndex)) {
+            if (i == sourceIndex && s.startsWith(source, sourceIndex)) {
                 result.append(target);
                 i += source.length();
                 index++;
