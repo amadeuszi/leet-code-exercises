@@ -1,10 +1,10 @@
 function isValid(s: string): boolean {
     const stack = []
-    const matching = {
-        "}": "{",
-        ")": "(",
-        "]": "[",
-    }
+    const matching = new Map<string, string>([
+        ["}", "{"],
+        [")", "("],
+        ["]", "["],
+    ])
     const opening = new Set(["(", "{", "["])
 
     for (let i = 0; i < s.length; i++) {
@@ -12,7 +12,7 @@ function isValid(s: string): boolean {
         if (opening.has(current)) {
             stack.push(current)
         } else {
-            const match = matching[current]
+            const match = matching.get(current)
             if (match !== stack[stack.length - 1]) {
                 return false
             }
